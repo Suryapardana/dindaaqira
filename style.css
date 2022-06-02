@@ -1,1 +1,108 @@
-#jam{color:#fff;}body{user-select:none;}#jam{font-size:.416666667in;}#quo,#teks,#jam{font-family:Oxanium;}body{-webkit-user-select:none;}#teks{font-size:23px;}#quo,#teks{overflow:hidden;}#teks{white-space:nowrap;}body{-khtml-user-select:none;}[class~=grid]{position:relative;}body{-moz-user-select:none;}body{-ms-user-select:none;}#teks{margin-left:auto;}#teks,#quo{margin-bottom:0;}[class~=grid]{top:50%;}#teks{margin-right:auto;}#teks{margin-top:.3125pc;}[class~=grid]{transform:perspective(1px) translateY(-50%);}[class~=grid]{text-align:center;}#teks,#quo{color:white;}#teks{animation:typing 5s steps(40,end),blink-caret .75s step-end infinite;}#quo{font-size:7.5pt;}#quo{margin-left:7%;}#quo{margin-right:7%;}#quo{margin-top:.625pc;}#quo{letter-spacing:.15em;}#quo{opacity:.7;}body{background-attachment:fixed;}#musicShow{display:none;}body{background-position:center;}@keyframes typing{from{width:0;}to{width:100%;}}@keyframes blink-caret{from,to{border-color:transparent;}50%{border-color:black;}}@keyframes heartfade{0%{opacity:1;}50%{opacity:0;}}[class~=heart]{z-index:999;}[class~=heart]{animation:heartfade 6s linear;}[class~=heart],[class~=heart]:after,[class~=heart]:before{position:absolute;}.pagi{background:linear-gradient(-45deg,#2da0ff,#1d1ad3,#1b62fc,#1446eb);}.pagi{background-size:400% 400%;}[class~=sore],[class~=malam],.pagi,[class~=siang]{animation:gradient 15s ease infinite;}[class~=heart]:after,[class~=heart]:before{content:"";}[class~=siang]{background:linear-gradient(-45deg,#ebdb00,#ec8b0d,#ffbc05,#dda221);}[class~=siang]{background-size:400% 400%;}[class~=heart]:after,[class~=heart]:before{background-color:#ff2e66;}[class~=sore]{background:linear-gradient(-45deg,#ffc400,#f90,#ff7b00,#ff7300);}[class~=heart]:after,[class~=heart]:before{height:.3125in;}[class~=sore]{background-size:400% 400%;}[class~=heart]:before,[class~=heart]:after{width:.46875in;}[class~=malam]{background:linear-gradient(-45deg,#2f5fff,#2369ff,#002488,#020085);}[class~=malam]{background-size:400% 400%;}[class~=heart]:before,[class~=heart]:after{border-radius:15px 0pt 0pc .15625in;}[class~=heart]:before{transform:rotate(45deg);}[class~=heart]:after{left:.109375in;}[class~=heart]:after{transform:rotate(135deg);}@keyframes gradient{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}[class~=box-area]{position:fixed;}[class~=box-area] li:nth-child(1){left:86%;}[class~=box-area] li:nth-child(1){width:.833333333in;}[class~=box-area] li{position:absolute;}[class~=box-area] li{display:block;}[class~=box-area] li:nth-child(1){height:80px;}[class~=box-area] li{list-style:none;}[class~=box-area] li:nth-child(1){animation-delay:0s;}[class~=box-area] li:nth-child(2){left:12%;}[class~=box-area] li:nth-child(2){width:30px;}[class~=box-area] li{width:18.75pt;}[class~=box-area] li:nth-child(2){height:22.5pt;}[class~=box-area] li:nth-child(2){animation-delay:1.5s;}[class~=box-area] li{height:18.75pt;}[class~=box-area] li:nth-child(2){animation-duration:10s;}[class~=box-area] li:nth-child(3){left:70%;}[class~=box-area] li:nth-child(3){width:6.25pc;}[class~=box-area] li:nth-child(3){height:1.041666667in;}[class~=box-area] li:nth-child(3){animation-delay:5.5s;}[class~=box-area] li{background:rgba(255,255,255,.2);}[class~=box-area] li:nth-child(4){left:42%;}[class~=box-area] li{animation:animate 20s linear infinite;}[class~=box-area] li:nth-child(4){width:1.5625in;}[class~=box-area] li{bottom:-200px;}[class~=box-area] li:nth-child(4){height:9.375pc;}[class~=box-area] li:nth-child(4),[class~=box-area] li:nth-child(5){animation-delay:0s;}[class~=box-area] li:nth-child(4){animation-duration:15s;}[class~=box-area] li:nth-child(5){left:65%;}[class~=box-area] li:nth-child(5){width:40px;}[class~=box-area] li:nth-child(5){height:40px;}[class~=box-area] li:nth-child(6){left:15%;}[class~=box-area] li:nth-child(6){width:6.875pc;}[class~=box-area]{top:0;}[class~=box-area]{left:0;}[class~=box-area] li:nth-child(6){height:82.5pt;}[class~=box-area] li:nth-child(6){animation-delay:3.5s;}[class~=box-area]{height:100%;}[class~=box-area]{width:100%;}[class~=box-area]{overflow:hidden;}@keyframes animate{0%{transform:translateY(0) rotate(0deg);opacity:1;}100%{transform:translateY(-800px) rotate(360deg);opacity:0;}}
+
+
+body { 
+  background-color: #fc6a6a;
+  color: black;
+  text-align: center;
+  font-family: Do Hyeon;
+} 
+  
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+} 
+  
+.heading { 
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: black;
+  margin-top: 20px;
+}
+  
+.header { 
+  display: flex; 
+  align-items: center;
+} 
+  
+.timer, .errors, .accuracy, 
+.cpm, .wpm { 
+  background-color: #ff7066; 
+  height: 50px; 
+  width: 50px; 
+  margin: 8px; 
+  padding: 12px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform .5s;
+}
+
+.timer:hover, .errors:hover, .accuracy:hover,
+.cpm:hover, .wpm:hover, .quote:hover {
+  transform: scale(1.1);
+}
+  
+.cpm, .wpm  { 
+  display: none; 
+} 
+  
+.header_text { 
+  text-transform: uppercase; 
+  font-size: 0.6rem; 
+  font-weight: 600; 
+} 
+  
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm, 
+.curr_wpm { 
+  font-size: 2rem; 
+} 
+  
+.quote { 
+  background-color: #ff7066; 
+  font-size: 1.3rem; 
+  margin: 10px; 
+  padding: 25px;
+  border-radius: 8px;
+  font-family: PT Sans;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+  transition: transform .5s;
+}
+  
+.input_area { 
+  background-color: #fff; 
+  height: 80px; 
+  width: 40%; 
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  margin: 15px; 
+  padding: 20px; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
+	border: none;
+} 
+  
+.restart_btn { 
+  display: none;
+  font-size: 1.3rem;
+  font-family: PT Sans;
+  padding: 10px; 
+  border-radius: 8px;
+  border: none;
+  background-color: #ff7066;
+  margin-top: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.incorrect_char { 
+  color: red;
+  text-decoration: underline; 
+} 
+  
+.correct_char { 
+  color: darkgreen; 
+}
